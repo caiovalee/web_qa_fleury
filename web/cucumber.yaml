@@ -1,0 +1,10 @@
+---
+  # prod: ENV_TYPE=prod
+  default: -p chrome -p html
+
+  firefox: BROWSER=firefox
+  chrome: BROWSER=chrome
+  headless: BROWSER=headless
+
+  html: --format html --out=logs/report.html
+
